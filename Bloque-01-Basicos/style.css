@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Dark theme common styles */
 :root{
     --bg: #0b1220;
@@ -29,4 +30,37 @@ h1{margin: 0 0 12px 0; color: var(--accent);}
 .controls{margin: 12px 0}
 .button{background: var(--accent);color: #071514; padding: 8px 12px; border-radius: 8px;border: none; cursor: pointer}
 .code{background: rgba(255 , 255, 255 , 0.03); padding: 12px; border-radius: 8px; font-family: 'Courier New', Courier, monospace; overflow-x: auto;}
+=======
+/* Dark theme common styles */
+:root{
+    --bg: #0b1220;
+    --card: #0f1720;
+    --muted: #9aa6b2;
+    --accent: #7c5cff;
+    --text: #e6eef6;
+    --glass: rgba(255, 255, 255, 0.1);
+}
+*{box-sizing: border-box;}
+body{
+    margin: 0;
+    font-family: Inter,system-ui, Segoe UI, Roboto, Arial;
+    background: linear-gradient(180deg, var(--bg), #081019);
+    color: var(--text);
+    padding: 28px;
+}
+.app{
+    max-width: 900px;
+    margin:0 auto;
+    background: linear-gradient(180deg, var(--card), rgba(11,18,32,0.9));
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 32px rgba(2,6,23, 0.3);
+    border: 1px solid rgba(255,255,255,0.03);
+}
+
+h1{margin: 0 0 12px 0; color: var(--accent);}
+.controls{margin: 12px 0}
+.button{background: var(--accent);color: #071514; padding: 8px 12px; border-radius: 8px;border: none; cursor: pointer}
+.code{background: rgba(255 , 255, 255 , 0.03); padding: 12px; border-radius: 8px; font-family: 'Courier New', Courier, monospace; overflow-x: auto;}
+>>>>>>> 611017ee73dd6b2d12b17fd52e3eafd28d21c094
 .footer{margin-top: 16px;color: var(--muted);font-size: 0.9rem;}
