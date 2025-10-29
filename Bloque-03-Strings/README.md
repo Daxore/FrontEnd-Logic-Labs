@@ -66,23 +66,6 @@ Aprender a manipular **cadenas de texto (strings)** en JavaScript, aplicando mé
 
 ---
 
-## 📂 Estructura del proyecto
-📦 Bloque3-Strings
-┣ 📜 bloque3-strings.js
-┣ 📜 index.html
-┣ 📜 README.md
-
-yaml
-Copiar código
-
----
-
-## 🌐 Deploy recomendado
-- **Netlify** → simple drag & drop  
-- **Vercel** → con tu cuenta de GitHub
-
----
-
 ## ✍️ Autor
 **Hugo Gil** — *Desarrollador Front-End Junior*  
 💡 Apasionado por el código limpio, el diseño funcional y el aprendizaje constante.  
@@ -97,15 +80,6 @@ Copiar código
 4️⃣ titleCase("javascript es genial") ➜ Javascript Es Genial
 ...
 
-Copiar código
-✨ Listo — ya tenés el README con la estructura estándar.
-Si querés, ahora mismo:
-
-Lo guardo por vos en Bloque-03-Strings/README.md y te doy el enlace de descarga en .zip.
-
-O te creo los README.md para Bloque 1 y 2 con la misma estructura y te los entrego juntos.
-
-Dime cuál opción preferís y lo preparo al toque ✅
 
 
 
