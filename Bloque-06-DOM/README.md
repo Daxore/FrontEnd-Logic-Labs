@@ -58,33 +58,40 @@ Cada etiqueta HTML es un nodo que puedes modificar con JavaScript.
 
 ### 🔸2. Selección de elementos
 Permite encontrar elementos dentro del documento
+
 q("#titulo")      // uno
 qa(".items")      // varios
 
 ### 🔸3. Creación de elementos dinámicos
 Puedes crear nuevos nodos y añadirlos en cualquier parte:
+
 const p = createEl("p", { textContent: "Hola!" });
 append(q("#app"), p);
 
 ### 🔸4. Manejo de clases CSS
 Sirve para aplicar estilos visuales
+
 addClass(p, "activo");
 toggleClass(p, "oculto");
 
 ### 🔸5. Modificacion de contenido 
 Permite actualizar textos y estructuras HTML:
+
 setText(p, "Nuevo texto");
 setHTML(p, "<b>Texto en negrita</b>");
 
 ### 🔸6. Estilos en línea
 para aplicar cambios rápidos:
+
 setStyle(p, { color: "blue", fontSize: "20px" });
 
 ### 🔸7. Atributos HTML
 Modificar cosas como src, href, alt, etc.:
+
 setAttr(img, "src", "foto.png");
 
 ### 🔸8. Inserciones, reemplazos y clonado
 Manera profesional de crear interfaces dinámicas:
+
 insertBeforeEl(div, h2, p);
 clone(p, true);
